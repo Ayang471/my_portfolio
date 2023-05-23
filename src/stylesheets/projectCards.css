@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+
+.project-cards {
+font-family: Comic Neue;
+ margin-left: 8%;
+ margin-top: 4%;
+ margin-bottom: 0px;
+}
+
+.project-cards .container{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 auto;
+}
+
+.project-cards .container .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-cards .border{
+  margin: 2% 8%;
+  height: 320px;
+}
+
+.project-cards .container .row .col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ margin-bottom:3% ;
+}
+
+
+.project-cards img{
+    background-color: #FFF8EB;
+    width: 450px;
+    height: 350px;
+    margin: 0 auto;
+    object-fit:contain;
+    transition: all .2s ease-in-out;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.20);
+}
+
+ .project-cards img:hover{
+     transform: scale(1.1);
+}
+
+.card-body{
+width: 150px;
+text-align: left;
+padding: 25px 0;
+}
+
+.card-body h5{
+    color:#212A3E;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.card-body  p {
+     color:#212A3E;
+    font-weight: medium;
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 4%;
+}
+
+.card-text {
+ width: 450px;
+}
+
+.card-body a {
+    text-decoration: none;   
+    color: #FFF8EB;
+    padding: 8px 18px;
+    background-color:#212A3E;
+    font-size: 20px;
+    font-weight: 550;
+    margin: 6px 24px;
+    border-radius: 10px;
+}
+
+.card-body .btn{
+    display: flex;
+    flex-direction:row;
+   align-items: center;
+}
