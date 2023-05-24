@@ -7,7 +7,6 @@ function SkillsSection() {
     <div className='skills-section'>
       <div className='container'>
         <div className='row'>
-        
             <div className='skills-intro'>
               <div className='border'> </div>
               <h1>
