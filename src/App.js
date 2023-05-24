@@ -1,27 +1,24 @@
 import './App.css';
-//import Cards from './components/Cards'
-//import HeroSection from './components/HeroSection';
 import ProjectsSection from './components/ProjectsSection';
 import SkillsSection from './components/SkillsSection';
+import MyResume from './components/MyResume'
+import { Routes, Route, Link } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <div className='nav-bar'>
+      <nav className='nav-bar'>
         <ul className="nav justify-content-center">
-         {/* <li className="nav-item">
-            <a className="nav-link" href="/">Home</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/">Projects</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/">Skills</a>
-          </li> */}
+          <Link to="/projects" className="nav-link">Projects</Link>
+          <Link to="/skills" className="nav-link">Skills</Link>
+          <Link to="/resume" className="nav-link">Resume</Link>
         </ul>
-      </div>
-      <ProjectsSection />
-      <SkillsSection />
+      </nav>
+<Routes>
+  <Route path="/projects" element={<ProjectsSection />} />
+        <Route path="/skills" element={<SkillsSection/>} />
+        <Route path="/resume" element={<MyResume />} />
+</Routes>
     </div>
   );
 }
