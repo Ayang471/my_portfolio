@@ -1,62 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
 
 
 .hero-section {
-    background-color: #212A3E;
-    height: 600px;
+    background-color: #fff;
     padding-top:8%;
 }
 
 .hero-section .border{
-width: 150px;
+width: 200px;
   height: 5px;
- background-color:#FFF8EB;
- margin-left: 25%;
- margin-bottom: 6%;
+ background-color:#212A3E;
+ margin-left: 15%;
+ margin-bottom: 5%;
   border-radius: 12px;
 }
 
 .hero-section .intro-section{
     text-align: left;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 
 .hero-section h1{
     color:#FFF8EB;
-    font-family: Nunito;
-     margin-bottom: 6%;
+   font-family: 'Nunito', sans-serif;
+     margin-bottom: 8%;
      letter-spacing: 6px;
-  
+     height:100px;
 }
 
 .hero-section  span{
      color:#FFF8EB;
+       position: relative;
+  top: 6px;
+  display: inline-block;
+ letter-spacing: 14px;
+  animation: bounce .4s ease infinite alternate;
+  font-family: 'Titan One', cursive;
+  font-weight: 600;
+  font-size: 68px;
+  color: #212A3E;
+  text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .4);
 }
 
-.hero-section p{
-      color:#FFF8EB;
-       font-size: 18px;
-      line-height: 28px;
-       margin-bottom: 8%;
+h1 span:nth-child(2) { animation-delay: .1s; }
+h1 span:nth-child(3) { animation-delay: .2s; }
+h1 span:nth-child(4) { animation-delay: .3s; }
+h1 span:nth-child(5) { animation-delay: .4s; }
+h1 span:nth-child(6) { animation-delay: .5s; }
+h1 span:nth-child(7) { animation-delay: .6s; }
+h1 span:nth-child(8) { animation-delay: .7s; }
+
+@keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 50px 25px rgba(0, 0, 0, .2);
+  }
 }
 
-.hero-section a{
-    font-size: 18px;
+.intro-section .view-btn{
+    margin-top: 32px;
+}
+
+.view-btn a{
+    font-size: 22px;
     text-decoration: none;
-    color: #212A3E;
+    color: #FFF8EB;
     font-weight: 500;
-        padding: 10px 18px;
+        padding: 14px 20px;
     border: none;
-    background-color: #FFF8EB;
+    letter-spacing: 2px;
+    background-color: #212A3E;
     border-radius: 8px;
     align-items: left;
     margin: 0;
-    transition: all 0.8s;
+    transition: all .2s ease-in-out;
      cursor: pointer;
 }
 
-.intro-section a:hover{
+.view-btn a:hover{
      transform: scale(1.1);
-
+       background-color: rgb(33,42,62, 0.9);
+      color: #FFF8EB;
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.0);
 }
 
+
+.intro-section h2 {
+      font-family: 'Gochi Hand', cursive;
+    color: #212A3E;
+  line-height: 1.5;
+  display: inline;
+  margin-bottom: 5%;
+    letter-spacing: 2px;
+  background-image: linear-gradient(
+        transparent 50%,
+        rgb(241, 241, 241) 50%,
+        #8598c2 100%,
+        transparent 85%,
+        transparent 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    animation: animatedBackground 2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
+}
+
+@keyframes animatedBackground {
+    to {
+        background-size: 100% 100%;
+    }
+}
