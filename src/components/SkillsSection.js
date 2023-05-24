@@ -10,8 +10,6 @@ function SkillsSection() {
             <div className='skills-intro'>
               <div className='border'> </div>
               <h1>
-                Technical
-                <br />
                 Skills
               </h1>
             </div>
