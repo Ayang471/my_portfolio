@@ -12,15 +12,15 @@ flex-wrap: wrap;
 
 .skills .container .row .col{
     justify-content: center;
-
 }
-.card {
+
+.skills .card {
     margin: 0 auto;
  width: 360px;
  border-radius: 10px;
- background: #FFF8EB;
  margin-bottom: 10px;
      transition: all .2s ease-in-out;
+ background-color:#212A3E;
 }
 
 .card img{
@@ -32,9 +32,11 @@ flex-wrap: wrap;
  font-family: Comic Neue;
     font-size: 20px;
     font-weight: 600;
+    text-align: center;
+    color: #FFF8EB;
 }
 
 .card:hover{
      transform: scale(1.1);
-        box-shadow: 2px 5px 10px rgba(247, 247, 247, 0.6);
+        box-shadow: 2px 5px 10px rgba(82, 82, 82, 0.6);
 }
