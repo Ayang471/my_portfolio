@@ -4,31 +4,28 @@
 .project-cards {
 font-family: Comic Neue;
  margin-left: 8%;
- margin-top: 4%;
+ margin-top: 3%;
  margin-bottom: 0px;
 }
 
 .project-cards .container{
-    display: flex;
-    flex-wrap:wrap;
+    display: inline-grid;
+  grid-template-rows: auto;
     margin: 0 auto;
 }
 
-.project-cards .container .row{
-    justify-content: space-between;
-    align-items: center;
-}
-
 .project-cards .border{
-  margin: 2% 8%;
+  margin: 2% 5%;
   height: 320px;
 }
+
 
 .project-cards .container .row .col{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
- margin-bottom:3% ;
+    align-items: center;
+    margin-bottom:5% ;
 }
 
 
@@ -49,23 +46,21 @@ font-family: Comic Neue;
 .card-body{
 width: 150px;
 text-align: left;
-padding: 25px 0;
+margin:10px auto;
 }
 
 .card-body h5{
     color:#212A3E;
     font-weight: 600;
-    font-size: 28px;
-    margin: 0;
-    padding: 0;
+    font-size: 26px;
 }
 
 .card-body  p {
      color:#212A3E;
     font-weight: medium;
     line-height: 30px;
-    font-size: 18px;
-    margin-top: 4%;
+    font-size: 16px;
+    margin: 4% 0;
 }
 
 .card-text {
@@ -75,16 +70,21 @@ padding: 25px 0;
 .card-body a {
     text-decoration: none;   
     color: #FFF8EB;
-    padding: 8px 18px;
+    padding: 10px 18px;
     background-color:#212A3E;
     font-size: 20px;
     font-weight: 550;
-    margin: 6px 24px;
+    margin: 8px 24px;
     border-radius: 10px;
+        transition: all .2s ease-in-out;
 }
 
-.card-body .btn{
-    display: flex;
-    flex-direction:row;
-   align-items: center;
+.card-body a:hover {
+      transform: scale(1.1);
+     color:rgb(33,42,62);
+      background-color: #FFF8EB;
+      border: 1px solid #212A3E;
+      padding: 10px 18px;
+      margin: 8px 24px;
+         font-size: 20px;
 }

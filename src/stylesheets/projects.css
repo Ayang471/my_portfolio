@@ -36,14 +36,3 @@ line-height: 45px;
 }
 
 
-.project-cards .row .col{
-   display: flex;
-    flex-direction: row;
-    padding: 0;
-}
-.project-cards .left-card{
-    width: 400px;
-    height: 300px;
-
-}
-
