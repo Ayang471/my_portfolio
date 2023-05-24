@@ -5,7 +5,7 @@ export const SkillsList = [
 },
     {
         icon: require('../images/CSS_icon.png'),
-        title: 'CSS3'
+        title: 'CSS'
     },
     {
         icon: require('../images/JS_icon.png'),
@@ -16,7 +16,10 @@ export const SkillsList = [
         icon: require('../images/react_icon.png'),
         title: 'React'
     },
-
+    {
+        icon: require('../images/GitHub_icon.png'),
+        title: 'GitHub'
+    },
     {
         icon: require('../images/Bootstrap_icon.png'),
         title: 'Bootstrap'
@@ -26,6 +29,11 @@ export const SkillsList = [
         icon: require('../images/MUI_icon.png'),
         title: 'MUI'
     },
+    {
+        icon: require('../images/Figma_icon.png'),
+        title: 'Figma'
+    },
+  
 
 
 
