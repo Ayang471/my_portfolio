@@ -19,3 +19,22 @@ line-height: 28px;
 color: #FFF8EB;
 text-align: center;
 }
+
+.nav-bar .nav-link:link {
+color: #FFF8EB;
+}
+
+/* visited link */
+.nav-bar .nav-link:visited {
+  color: #FFF8EB;
+}
+
+/* mouse over link */
+.nav-bar .nav-link:hover {
+color: rgb(255,248,235,0.9);
+}
+
+/* selected link */
+.nav-bar .nav-link:active {
+color: #FFF8EB;
+}
