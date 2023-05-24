@@ -1,7 +1,7 @@
 import React from 'react'
 import '../stylesheets/projectCards.css'
 import { ProjectList, DesignWorks } from './ListofProjects'
-import { Show, Hide } from '@chakra-ui/react'
+import { Show } from '@chakra-ui/react'
 
 function ProjectCards() {
 
