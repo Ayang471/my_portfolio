@@ -1,5 +1,6 @@
 import React from 'react'
 import '../stylesheets/heroSectionStyles.css'
+import { Link } from 'react-router-dom'
 
 function HeroSection() {
     return (
@@ -9,17 +10,28 @@ function HeroSection() {
                     <div className='col'>
                         <div className='border'></div>
                         <div className='intro-section'>
-                            <h1>I'm Alice,
+                            <h1>
+                                <span>I</span>
+                                <span>'</span>
+                                <span>m</span> 
+                                    <br />
+                                <span>A</span>
+                                <span>l</span>
+                                <span>i</span>
+                                <span>c</span>
+                                <span>e</span>
                                 <br />
-                                <span>
-                                    a <i>UI Designer</i> and <i>Web Developer</i>
-                                </span></h1>
-                            <p>Lorem ipsum dolor sit amet consectetur. Magna aliquam sagittis euismod cras a. Sed blandit lobortis est aliquet placerat id enim viverra. Accumsan tristique blandit eu nunc pellentesque.</p>
-                            <a href="/" className='view-btn'>View Works</a>
+                                
+                               </h1>
+                            <h2>Take a look at some of my coding projects and design works.</h2>
+                            <div className='view-btn'>
+                                <Link to="/projects">View Projects</Link>
+                            </div>
+                            
                         </div>
-                        
-                    </div>
-                    <div className='col'>
+                        <div className='col'>
+
+                        </div>
                     </div>
                 </div>
             </div>
