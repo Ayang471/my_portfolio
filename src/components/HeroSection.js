@@ -23,8 +23,7 @@ function HeroSection() {
                                 <br />
                                 
                                </h1>
-                            <h2>Feels free to take a look at some of my
-                                <br />  coding projects and design works.</h2>
+                            <h2>Feels free to take a look at some of my works.</h2>
                             <div className='view-btn'>
                                 <Link to="/projects">View Projects</Link>
                             </div>
