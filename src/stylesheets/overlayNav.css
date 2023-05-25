@@ -13,8 +13,8 @@ body {
 
 .btn{
   position: absolute;
-  top: 25px;
-  right: 25px;
+  top: 30px;
+  right:50px;
   z-index: 2;
   display: flex;
   width: 20px;
@@ -22,12 +22,13 @@ body {
 }
 
 .btn span{
-  width: 20px;
-  height: 2px; 
-  background: #000;
+  width: 30px;
+  height: 3px; 
+  background: #212A3E;
   display: flex;
   position: absolute;
   transition: .3s;
+  border-radius: 12px;
 }
 
 .btn span:nth-child(1){
@@ -38,7 +39,7 @@ body {
 }
 
 .btn.is-active span{
-  background:#000;
+  background:#fff;
 }
 
 .btn.is-active span:nth-child(1){
@@ -52,7 +53,7 @@ body {
 }
 
 .menu {
-  background: #171717;
+  background: #212A3E;
   display: flex;
   align-items: center;
   position: fixed;
@@ -79,7 +80,7 @@ body {
    font-family: 'Nunito', sans-serif;
 }
 
-.menu_item:not(:last-child) {
+.menu-link:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -88,9 +89,13 @@ body {
   display: inline-flex;
   font-weight: bold;
   font-size: 44px;
-  color: #fff;
+  color: #FFF8EB;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.menu-link:hover{
+  color: #FFF8EB;
 }
 
 .menu-link:after{
@@ -101,7 +106,7 @@ body {
   width: 0;
   height: 5px;
   display: inline-flex;
-  background:#c5e600;
+  background:#FFF8EB;
   transition: .3s;
 }
 
