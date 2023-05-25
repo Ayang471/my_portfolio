@@ -23,7 +23,6 @@ width: 200px;
 
 .hero-section h1{
     color:#FFF8EB;
-   font-family: 'Nunito', sans-serif;
      margin-bottom: 8%;
      letter-spacing: 6px;
      height:100px;
@@ -77,7 +76,7 @@ h1 span:nth-child(8) { animation-delay: .7s; }
 }
 
 .intro-section .view-btn{
-    margin-top: 32px;
+    margin-top: 6%;
 }
 
 .view-btn a{
@@ -105,7 +104,8 @@ h1 span:nth-child(8) { animation-delay: .7s; }
 
 
 .intro-section h2 {
-      font-family: 'Gochi Hand', cursive;
+      font-family: 'Nunito', sans-serif;
+      font-style: italic;
     color: #212A3E;
   line-height: 1.5;
   display: inline;
