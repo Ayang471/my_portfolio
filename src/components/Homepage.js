@@ -3,7 +3,7 @@ import HeroSection from './HeroSection'
 
 function Homepage() {
   return (
-    <div>
+    <div className='home-page'>
         <HeroSection />
     </div>
   )
