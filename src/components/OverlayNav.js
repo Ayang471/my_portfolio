@@ -13,6 +13,7 @@ function OverlayNav() {
     const openResume= () => {
         window.open("https://drive.google.com/file/d/1WMyE2gunzDJ38F2p3nvA-sAHed-3VC33/view?usp=sharing", "_blank");
     };
+    
 
   return (
     <div className='nav-bar'>
@@ -25,7 +26,7 @@ function OverlayNav() {
                   <Link to="/home" title="" className='menu-link'>Home</Link>
                   <Link to="/projects" title="" className='menu-link'>Projects</Link>
                   <Link to="/skills" title="" className='menu-link'>Skills</Link>
-                  <a href="#" className="menu-link" onClick={openResume}>Resume</a>
+                  <a href="/" className="menu-link" onClick={openResume}>Resume</a>
               </ul>
           </div>
     </div>
