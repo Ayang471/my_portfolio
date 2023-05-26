@@ -16,16 +16,16 @@ function ProjectCards() {
                           
                             <Show breakpoint='(min-width: 600px)' >
                                 <div className='border'></div>
-                            </Show>
+                            
                            
                                 <div className="card-body">
                                     <h5 className="card-title">{list.title}</h5>
                                     <p className="card-text">{list.des}</p>
-                                  
                                         <a href={list.demo}  target="_blank" rel="noopener noreferrer">Demo</a>
                                         <a href={list.github}  target="_blank" rel="noopener noreferrer">GitHub</a>
-                                    
+                                
                                 </div>
+                        </Show>
                         </div>
                     ))}
                 </div>
