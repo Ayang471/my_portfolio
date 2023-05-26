@@ -1,17 +1,16 @@
+
 export const ProjectList = [
     {
-        title: 'Weather Application',
-        img: require('../images/weather.png'),
-        des: `This application was coded in an advanced 8-week coding workshop. I became skilled in Bootstrap, API’s, real-life development workflow, hosting, and 
-        advanced JavaScript. I combined all of these skills to create a fully-functioning weather app.`,
-        demo: `https://sensational-moonbeam-d55027.netlify.app/`,
-        github: `https://github.com/Ayang471/react-weather-app`,
+        title: 'Vanilla JavaScript Application',
+        img: require('../images/vanillajs-weatherapp.png'),
+        des: `During a 3-week coding workshop, I created a fully-functional weather app, leveraging my skills in front-end technologies like HTML, CSS, and Bootstrap, mastering advanced JavaScript techniques (ES6) for effective DOM manipulation, and acquiring expertise in integrating live APIs and implementing real-life development workflows.`,
+        demo: `https://dapper-boba-99e835.netlify.app/`,
+        github: `https://github.com/Ayang471/Vanilla-Weather-App`,
     },
     {
-        title: 'Dictionary Application',
+        title: 'React Dictionary Application',
         img: require('../images/dictionary.png'),
-        des: `I immersed myself in React development in SheCodes React. I used my knowledge of this highly-demanded framework to build a working dictionary app 
-        incorporating coding best practices, along with the most popular tools and technologies.`,
+        des: `I immersed myself in the world of React development and applied my extensive knowledge of this highly sought-after framework. The result was the creation of fully functional dictionary, incorporating multiple components and implementing coding best practices. Furthermore, I utilized popular tools and technologies to enhance the quality and efficiency of the applications.`,
         demo: `https://creative-tiramisu-c25be9.netlify.app`,
         github: `https://github.com/Ayang471/homework-dictionary-project`,
     },
