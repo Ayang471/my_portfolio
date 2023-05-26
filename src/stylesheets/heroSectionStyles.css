@@ -5,6 +5,8 @@
 .hero-section {
     background-color: #fff;
     padding-top:8%;
+  text-align: center;
+    margin: 0 auto;
 }
 
 .hero-section .border{
@@ -23,7 +25,7 @@ width: 200px;
 
 .hero-section h1{
     color:#FFF8EB;
-     margin-bottom: 8%;
+     margin-bottom: 9%;
      letter-spacing: 6px;
      height:100px;
 }
@@ -37,7 +39,7 @@ width: 200px;
   animation: bounce .4s ease infinite alternate;
   font-family: 'Titan One', cursive;
   font-weight: 600;
-  font-size: 68px;
+  font-size: 74px;
   color: #212A3E;
   text-shadow: 0 1px 0 #CCC,
                0 2px 0 #CCC,
