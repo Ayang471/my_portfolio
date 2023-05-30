@@ -19,10 +19,10 @@ function ProjectsSection() {
                 </div>
                 </div>
             </div>
-            <section>
-                  <ProjectCards />
-            </section>
         </div>
+      <section>
+        <ProjectCards />
+      </section>
     </div>
   )
 }
