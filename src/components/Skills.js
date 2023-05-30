@@ -5,20 +5,17 @@ import {SkillsList} from './SkillsList'
 function Skills() {
   return (
 <div className='skills'>
-          <div class="container">
+          <div class="container text-center">
               <div class='row'>
                   {SkillsList.map((list, index) => (
-                      <div class='col' key={index}>
-                          <div class="card">
+                          <div class="card" key={index}>
                               <img src={list.icon} alt="icon" />
                               <h1>{list.title}</h1>
                           </div>
-                      </div>
+                  
                   ))}
-
+              </div> 
               </div>
-          </div>
-
 </div>
 
   )
