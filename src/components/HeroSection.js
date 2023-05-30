@@ -13,21 +13,25 @@ function HeroSection() {
                             <h1>
                                 <span>I</span>
                                 <span>'</span>
-                                <span>m</span> 
-                                    <br />
+                                <span>m</span>
+                                <br />
                                 <span>A</span>
                                 <span>l</span>
                                 <span>i</span>
                                 <span>c</span>
                                 <span>e</span>
                                 <br />
-                                
-                               </h1>
-                            <h2>Feels free to take a look at some of my works.</h2>
+
+                            </h1>
+
+                            <div className='intro'>
+                                <h2>Feels free to take a look at some of my works.</h2>
+                            </div>
+
                             <div className='view-btn'>
                                 <Link to="/projects">View Projects</Link>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
