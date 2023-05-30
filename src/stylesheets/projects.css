@@ -15,7 +15,7 @@ height: 5px;
 
 .project-intro {
     text-align: left;
-    margin: 6% 0 0 8%;
+    margin: 8% 0 0 5%;
 }
 
 .project-intro h1{
@@ -36,3 +36,6 @@ line-height: 45px;
 }
 
 
+.project-intro section{
+  margin: 0 auto;
+}
