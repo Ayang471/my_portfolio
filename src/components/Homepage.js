@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import HeroSection from './HeroSection'
 
 function Homepage() {
+
   return (
-    <div className='home-page'>
+    <div className='home-page' >
         <HeroSection />
     </div>
   )

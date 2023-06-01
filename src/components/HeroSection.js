@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import '../stylesheets/heroSectionStyles.css'
 import { Link } from 'react-router-dom'
 
+
 function HeroSection() {
+
     return (
-        <div className="hero-section">
+        <div className="hero-section" >
             <div className='container'>
                 <div className='row'>
                     <div className='col'>

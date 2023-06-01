@@ -3,6 +3,7 @@ import '../stylesheets/SkillsSectionStyles.css'
 import Skills from '../components/Skills'
 
 function SkillsSection() {
+
   return (
     <div className='skills-section'>
       <div className='container'>
@@ -10,7 +11,7 @@ function SkillsSection() {
           <div className='col'>
             <div className='skills-intro'>
               <div className='border'> </div>
-              <h1>
+              <h1 >
                 Skills
               </h1>
             </div>
