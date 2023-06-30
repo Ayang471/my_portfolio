@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { Bounce, Slide } from "react-awesome-reveal";
 
 function HeroSection() {
+
     return (
         <div className="hero-section" >
             <div className='container'>
