@@ -17,9 +17,8 @@ function App() {
           <Route path="/projects" element={<ProjectsSection />} />
           <Route path="/skills" element={<SkillsSection />} />
         </Routes>
-      </div>
-     
-
+      <Homepage />
+    </div>
   );
 }
 
