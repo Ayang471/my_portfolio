@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import '../stylesheets/overlayNav.css'
 import { Link } from 'react-router-dom'
 
-
 function OverlayNav() {
     const [isActive, setIsActive] = useState(false);
 

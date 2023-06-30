@@ -4,7 +4,7 @@ export const ProjectList = [
         title: 'Vanilla JavaScript Application',
         img: require('../images/vanillajs-weatherapp.png'),
         des: `During a 3-week coding workshop, I created a fully-functional weather app, leveraging my skills in front-end technologies like HTML, CSS, and Bootstrap, mastering advanced JavaScript techniques (ES6) for effective DOM manipulation, and acquiring expertise in integrating live APIs and implementing real-life development workflows.`,
-        demo: `https://dapper-boba-99e835.netlify.app/`,
+        demo: `https://ay-vanillajs-weather-app.netlify.app/`,
         github: `https://github.com/Ayang471/Vanilla-Weather-App`,
     },
     {
