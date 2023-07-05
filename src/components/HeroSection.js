@@ -34,15 +34,15 @@ function HeroSection() {
                                     <h2>Feels free to take a look at some of my works.</h2>
                                 </Slide>
                             </div>
-
-                            <div className='view-btn'>
-                               <Slide 
+                             
+                                 <div className='view-btn'>
+                                 <Slide
                                delay='100'
-                               >
-                                    <Link to="/projects">View Projects</Link>
+                                    >
+                                  <Link to="/projects">View Projects</Link>
                                </Slide>
-                            </div>
-
+                                  </div>
+                            
                         </div>
                     </div>
                 </div>
