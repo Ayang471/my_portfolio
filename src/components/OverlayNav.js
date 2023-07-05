@@ -20,7 +20,6 @@ function OverlayNav() {
     };
 
 
-
     return (
         <div className='nav-bar'>
                 <a href="/" title="" className={`btn ${isActive ? 'is-active' : ''}`} onClick={handleClick}>
@@ -29,7 +28,7 @@ function OverlayNav() {
                 </a>
                 <div className={`menu ${isActive ? 'is-active' : ''}`} onClick={handleClick}>
                     <ul className="menu_list justify-content-center"  >
-                        <Link to="/home" title="" className='menu-link'>Home</Link>
+                        <Link to="/" title="" className='menu-link'>Home</Link>
                         <Link to="/projects" title="" className='menu-link'>Projects</Link>
                         <Link to="/skills" title="" className='menu-link'>Skills</Link>
                         <a href="/" className="menu-link" onClick={openResume}>Resume</a>
