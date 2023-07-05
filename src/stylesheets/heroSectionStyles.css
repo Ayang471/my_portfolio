@@ -97,7 +97,7 @@ h1 span:nth-child(8) { animation-delay: .7s; }
   background-image: linear-gradient(
         transparent 50%,
         rgb(241, 241, 241) 50%,
-        #8598c2 100%,
+        #b1dae7, 100%,
         transparent 85%,
         transparent 100%
     );
@@ -116,27 +116,67 @@ h1 span:nth-child(8) { animation-delay: .7s; }
     margin-top: 8%;
 }
 
-.view-btn a{
-    font-size: 20px;
-    text-decoration: none;
-    color: #FFF8EB;
-    font-weight: 500;
-        padding: 14px 20px;
-    border: none;
-    letter-spacing: 1px;
-    background-color: #212A3E;
-    border-radius: 8px;
-    align-items: left;
-    margin: 0;
-    transition: all .2s ease-in-out;
-     cursor: pointer;
+
+.view-btn {
+ position: relative;
+ margin: auto;
+ padding: 12px 22px;
+ transition: all 0.2s ease;
+ border: none;
+ background: none;
+}
+
+.view-btn:before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: block;
+ border-radius: 50px;
+ background: #b1dae7;
+ width: 45px;
+ height: 45px;
+ transition: all 0.3s ease;
+}
+
+.view-btn a {
+ position: relative;
+ font-family: "Ubuntu", sans-serif;
+ font-size: 18px;
+ font-weight: 700;
+ letter-spacing: 1px;
+ color: #234567;
+ border: none;
+ background:none;
+ text-decoration: none;
 }
 
 .view-btn a:hover{
-       background-color: #FFF8EB;
-      color: #212A3E;
-      border: 1px solid #212A3E;
-        padding: 14px 20px;
-          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.0);
+   color: #234567;
 }
 
+.view-btn svg {
+ position: relative;
+ top: 0;
+ margin-left: 10px;
+ fill: none;
+ stroke-linecap: round;
+ stroke-linejoin: round;
+ stroke: #234567;
+ stroke-width: 2;
+ transform: translateX(-5px);
+ transition: all 0.3s ease;
+}
+
+.view-btn:hover:before {
+ width: 29%;
+ background: #b1dae7;
+}
+
+.view-btn:hover svg {
+ transform: translateX(0);
+}
+
+.view-btn:active {
+ transform: scale(0.95);
+}
