@@ -33,7 +33,7 @@ width: 200px;
 
 .hero-section h1{
     color:#FFF8EB;
-     margin-bottom: 20%;
+     margin-bottom: 26%;
      letter-spacing: 6px;
      height:100px;
 }
@@ -56,7 +56,7 @@ width: 200px;
                0 5px 0 #CCC,
                0 6px 0 transparent,
                0 7px 0 transparent,
-               0 8px 0 transparent,
+               0 8px 0 transparent,n
                0 9px 0 transparent,
                0 10px 10px rgba(0, 0, 0, .4);
 }
@@ -97,7 +97,7 @@ h1 span:nth-child(8) { animation-delay: .7s; }
   background-image: linear-gradient(
         transparent 50%,
         rgb(241, 241, 241) 50%,
-        #b1dae7, 100%,
+        #a1bdd6, 100%,
         transparent 85%,
         transparent 100%
     );
@@ -113,7 +113,7 @@ h1 span:nth-child(8) { animation-delay: .7s; }
 }
 
 .intro-section .view-btn{
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
 
@@ -133,9 +133,9 @@ h1 span:nth-child(8) { animation-delay: .7s; }
  left: 0;
  display: block;
  border-radius: 50px;
- background: #b1dae7;
- width: 45px;
- height: 45px;
+ background: #a1bdd6;
+ width: 50px;
+ height: 50px;
  transition: all 0.3s ease;
 }
 
@@ -170,7 +170,7 @@ h1 span:nth-child(8) { animation-delay: .7s; }
 
 .view-btn:hover:before {
  width: 29%;
- background: #b1dae7;
+ background: #779fc2;
 }
 
 .view-btn:hover svg {
