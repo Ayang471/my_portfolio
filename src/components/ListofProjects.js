@@ -22,14 +22,6 @@ export const ProjectList = [
         create an engaging interface for a more visual appealing and dynamic user experience.`,
         demo: `https://littlelemonwebsite.netlify.app/`,
         github: `https://github.com/Ayang471/little-lemon-website`,
-    },
-    {
-        title: 'ToDo list',
-        img: require('../images/HomePage.png'),
-        des: `
-This project is a straightforward to-do list application developed with the React JavaScript framework, along with HTML and CSS. Users can effortlessly add new tasks and remove existing ones. By utilizing the Document Object Model (DOM), the application interacts with and modifies elements on the HTML page. The main objective of this project is to provide a practical environment for applying and enhancing the developer's programming skills while working with the fundamentals and syntax of React, HTML, and CSS.`,
-        demo: `https://littlelemonwebsite.netlify.app/`,
-        github: `https://github.com/Ayang471/little-lemon-website`,
     }
 ]
 
